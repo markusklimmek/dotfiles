@@ -8,3 +8,9 @@ export STRAP_GITHUB_USER=<YourGitHubUserName>
 export STRAP_GITHUB_TOKEN=<YourGithubToken>
 ```
 
+and then source it with the new bash_profile (I have not yet moved to zsh).
+We need to make a symbolic link before this will work. Change to your home directory and try this
+
+``` ln -s .dotfiles/bash_profile .bash_profile ```
+
+
