@@ -4,7 +4,8 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/m
 proc1=$!
 
 wait "$proc1"
-echo "Move and create a symlink"
+echo "Move zshrc and create a symlink"
 mv ~/.zshrc ~/.dotfiles/zshrc
 ln -s ~/.dotfiles/zshrc ~/.zshrc
-echo "Restart Shell" 
+
+echo "Please restart your shell" 
