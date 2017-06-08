@@ -17,3 +17,11 @@ We need to make a symbolic link before this will work. Change to your home direc
 
 Restart your terminal and the new bash_profile should be read.
 
+# ToDo
+
+Figure out, how to configure 
+3 finger drag
+klick with 1 finger tap 
+standby after x minutes
+
+
